@@ -5,6 +5,7 @@ import io
 import zipfile
 import re
 from datetime import datetime
+import pdfplumber 
 
 st.set_page_config(page_title="CMS Attendance PDF to Excel Batch Converter", layout="wide")
 
